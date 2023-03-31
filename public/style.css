@@ -39,3 +39,10 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+
+.error{
+    color: red;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}

@@ -9,18 +9,16 @@
     </head>
     <body>
         <main>
-            <form action="/login" method="post" class="contact-form">
-                <h1>Login Now</h1>
+            <form action="/register" method="post" class="contact-form">
+                <h1>Register Now</h1>
                 <br />
-                <input type="email" placeholder="Email" name="email" value="<%= locals.email %>" />
+                <input type="text" placeholder="Name" name="name" />
+                <br />
+                <input type="email" placeholder="Email" name="email" />
                 <br />
                 <input type="password" name="password" placeholder="password" />
                 <br />
-
-               
-                <p class="error"><%= locals.message %></p>
-                
-                <button type="submit">Log In</button>
+                <button type="submit">Sign Up</button>
             </form>
         </main>
     </body>
