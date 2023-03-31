@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(255, 234, 221);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+.contact-form, section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 600px;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    padding: 8rem 4rem;
+}
+input, button{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid
+}
+button{
+    background-color: rgb(106, 0,255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
